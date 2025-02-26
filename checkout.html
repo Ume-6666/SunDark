@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="../style.css/checkout.css">
+</head>
+<body>
+ 
+  <h1>Checkout</h1>
+  <div class="container">
+    <div class="billing-details">
+      <h2>Billing Details</h2>
+      <form action="" method="post">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="companyName">Company Name</label>
+        <input type="text" id="companyName" name="companyName">
+
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" placeholder="House Number, Street Name" required>
+
+        <label for="city">Town/City</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" required>
+
+        <label for="postcode">Postcode/Zip</label>
+        <input type="text" id="postcode" name="postcode" required>
+
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="orderNotes">Order Notes (Optional)</label>
+        <textarea id="orderNotes" name="orderNotes" placeholder="Any special instructions..."></textarea>
+      </form>
+    </div>
+
+    <div class="order-summary">
+      <h2>Order Summary</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="../furniture images/chair.jpeg" alt="Chair" id="M"></td>
+            <td>Chair</td>
+            <td>$50</td>
+            <td>5</td>
+            <td>$250</td>
+          </tr>
+          <tr>
+            <td><img src="../furniture images/sofa.webp.jpeg" alt="Sofa" id="M"></td>
+            <td>Sofa</td>
+            <td>$80</td>
+            <td>6</td>
+            <td>$480</td>
+          </tr>
+          <tr>
+            <td><img src="../furniture images/dining.jpeg" alt="Dining Table" id="M"></td>
+            <td>Dining Table</td>
+            <td>$80</td>
+            <td>9</td>
+            <td>$720</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="subtotal-label" id="A">Subtotal</td>
+            <td class="subtotal-amount" id="A">$1450</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <div class="shipping">
+        <h3>Shipping</h3>
+        <label><input type="radio" name="shipping" value="free" checked> Free Shipping</label><br>
+        <label><input type="radio" name="shipping" value="flat"> Flat rate: $1523.00</label><br>
+        <label><input type="radio" name="shipping" value="local"> Local Pickup: $8232.00</label>
+      </div>
+      
+      <div class="total">
+        <h3>Total</h3>
+        <p><strong>$153425.00</strong></p>
+      </div>
+
+      <div class="payment-methods">
+        <h3>Payment Methods</h3>
+        <label><input type="radio" name="payment" value="bank" checked> Direct Bank Transfer</label><br>
+        <p class="payment-info">Make your payment directly into our bank account. Use your Order ID as the payment reference..</p>
+        <label><input type="radio" name="payment" value="check"> Check Payments</label><br>
+        <label><input type="radio" name="payment" value="cod"> Cash on Delivery</label><br>
+        <label><input type="radio" name="payment" value="paypal"> PayPal</label>
+        <center><button type="button" class="order-button">Place Order</button></center>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

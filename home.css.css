@@ -1,0 +1,419 @@
+*{
+  /* margin: 0;
+  padding: 0; */
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+#Location {
+  text-decoration: none;
+  color: black;
+}
+
+
+.top-info {
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+#logo{
+    height: 100px;
+    margin-left: 200px;
+    border-radius: 20px;
+    
+}
+
+
+nav {
+  background-color: rgb(232, 154, 52);
+}
+
+.nvbrtxt{
+    display: flex;
+}
+
+.Search-bar{
+    border: none;
+    border-radius: 0.2rem;
+}
+
+
+.bar-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.bar-btn:hover{
+        transform: rotate(360deg);
+        transition: transform 0.3s;
+}
+
+.bar-btn:hover{
+    path{
+        fill: blue;
+    } 
+}
+
+
+.background {
+  position: absolute;
+  opacity: 0.2;
+}
+
+.boxone{
+    position: relative;
+}
+.contone {
+  height: 37rem;
+}
+
+.boxone h1{
+    font-style: oblique;
+    text-align: center;
+}
+.boxone h2{
+    font-style: oblique;
+    text-align: center;
+    padding: 20px;
+}
+#homie{
+    font-size: 5rem;
+    text-shadow: 0 0 5px rgb(248, 4, 4);
+}
+
+.boxone input,.boxone .sbmt{
+    position: relative;
+}
+.input{
+    border-radius: 20px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border-color: #4f1c1c;
+    padding: 30px;
+    margin-top: 40px;
+    background-color: transparent;
+    
+}
+.sbmt{
+    border-radius: 20px;
+    border-color: #4f1c1c;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+
+.img-slider {
+  width: 30rem;
+  height: 24rem;
+}
+
+.boxtwo {
+  display: flex;
+  overflow: hidden;
+  width: 30%;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.boxTwoInternal {
+  display: flex;
+  animation: scroll 250s linear infinite;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+
+
+.conttwo {
+  display: flex;
+  padding: 50px;
+  
+  
+}
+#navbarNavAltMarkup{
+    margin-left: 100px;
+}
+
+.product {
+  background-color: rgb(208, 233, 233);
+  margin-left: 30px;
+  border-radius: 20px;
+}
+#stck1{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    padding-right: 20px;
+   
+    border-radius: 7px;
+   
+     
+
+}
+.product:hover{
+    transform: scale(1.1);
+    padding: 1px;
+    
+}
+#stck2{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding: 7px;
+    
+}
+#stck3{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding: 7px;
+}
+#stck4{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding: 7px;
+}
+.bodycont-two{
+   
+    background-color: beige;
+}
+.product h3,p{
+    text-align: center;
+    font-style: initial;
+}
+ .btn{
+    text-align: center;
+
+}
+.contthree .btn{
+    margin-left: 90px;
+}
+.conttwo .btn{
+    margin-left: 90px;
+}
+.contthree {
+    display: flex;
+    padding: 40px; 
+  }
+  .contthree #p5{
+    margin-top: 20px;
+  }
+  .contthree #p6{
+    margin-top: 50px;
+  }
+  .contthree #p7{
+    margin-top: 50px;
+  }
+  .contthree #p8{
+    margin-top: 50px;
+  }
+  .conttwo #p1{
+ margin-top: 40px;
+  }
+  .conttwo #p2{
+    margin-top: 40px;
+     }
+     .conttwo #p3{
+        margin-top: 0px;
+         }
+         .conttwo #p4{
+            margin-top: 40px;
+             }
+  #stck6{
+    width: 100%;
+    height: 200px;
+    
+  }
+  
+  .contfive{
+    padding: 0%;
+    display: flex;
+  }
+  .contfive h1{
+    text-align: center;
+   font-style: oblique;
+   margin-right: 10px;
+   }
+   .contfive h1:hover{
+    transform: scale(1.1);
+    color: #f20707;
+   }
+
+  #offersimg4{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top:10px;
+    margin-left:40px;
+  }
+ 
+  .offers1:hover{
+    transform: scale3d(0.5);
+   
+
+  }
+  
+  #offersimg3{
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding: 20px;
+    
+  }
+  #offersimg2{
+    height: 600px;
+    width: 600px;
+    margin-left: 10px;
+   
+  }
+  .offers3{
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .offers3 h1{
+    margin-top: 0px;
+    text-align: center;
+    font-style: oblique;
+  }
+  #six1{
+    width: 800px;
+    height: 200px;  
+  }
+  #six2{
+    width: 1500px;
+    height: 300px;
+  }
+  .contsix{
+    display: flex;   
+  }
+.ourtestimonialheading{
+    text-align: center;
+    font-style: italic;
+}
+.ourtestimonialheading:hover{
+    color: rgb(73, 31, 243);
+
+}
+.testimonial h5{
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 50px;
+   
+}
+#random1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+#random2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+#random3{
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+
+.contseven{
+    display: flex;
+    background-color: rgb(214, 217, 216); 
+    border-color: #4f1c1c; 
+   
+}
+.footerheader h1{
+    font-style: oblique;
+    margin-left: 300px;
+    
+    
+
+}
+.footerheader {
+    background-color: rgb(99, 147, 131);
+
+}
+#footerinput{
+    width: 500px;
+    height: 50px;
+    border: 2px solid#f61616;  
+    border-radius: 50px;
+    margin-top: 0px;
+    padding: 20px;
+    margin-left: 200px;
+   
+
+}
+
+#Subscribe-btn{
+    height: 50px;
+    border: 2px solid#f20707;
+    border-radius: 50px;
+    width: 150px;
+    margin-left: -150px;
+    margin-top: 0px;
+    position: absolute;
+
+}
+#Subscribe-btn:hover{
+    background-color: rgb(182, 182, 205);
+    color: aliceblue;
+    border-color: greenyellow;
+}
+
+
+footer{
+    border: 5px solid black;
+    margin-top: 4rem;
+}
+
+.footerheader2{
+    display: flex;
+    background-color: rgb(99, 147, 131);
+    border-color: #030303; 
+}
+.content1{
+    
+    width: 300px;
+    margin-left: 100px;
+    padding: 30px;
+}
+
+.content2{
+    
+    width: 300px;
+    margin-left: 100px;
+    padding: 30px;
+   
+}
+.footerheader2 .content2:hover{
+    color: #4f1c1c;   
+}
+
+ 
+

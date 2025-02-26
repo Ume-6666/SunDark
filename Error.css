@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.error-Image img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    /* position: relative; */
+}
+.Page404 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 35%;
+    left: 42%;
+    font-size: 390%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+}
+
+.Page img{
+    position: absolute;
+    bottom: 20%;
+    left: 32%;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
